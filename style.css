@@ -1,0 +1,15 @@
+table, th, tr, td {
+background-color: #F9F9F9;
+
+}
+.name {
+  color: #319CEB;
+  text-align: left;
+  font-size: 40px;
+}
+th {
+  text-align: left;
+}
+.footer {
+  background-color: #319CEB;
+}
