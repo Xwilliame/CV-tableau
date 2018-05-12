@@ -2,14 +2,22 @@ table, th, tr, td {
 background-color: #F9F9F9;
 
 }
+
+th {
+  text-align: left;
+}
+
 .name {
   color: #319CEB;
   text-align: left;
   font-size: 40px;
+  font-weight: bold;
 }
-th {
-  text-align: left;
+
+.data {
+  font-weight: lighter;
 }
+
 .footer {
   background-color: #319CEB;
 }
