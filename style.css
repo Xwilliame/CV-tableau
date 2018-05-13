@@ -1,21 +1,56 @@
 table, th, tr, td {
 background-color: #F9F9F9;
-
+font-family: Arial, Helvetica, sans-serif;
 }
+
 
 th {
   text-align: left;
 }
 
+tr {
+  padding: 20px;
+}
+
 .name {
   color: #319CEB;
   text-align: left;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bold;
 }
 
 .data {
   font-weight: lighter;
+}
+
+.subtitle {
+  color: #319CEB;
+  font-size: 20px;
+}
+
+.subworkplay, .subcat {
+  color: #319CEB;
+}
+
+.subcat {
+  font-weight: bold;
+}
+
+.company {
+  font-weight: bold;
+}
+
+.year {
+  font-weight: bold;
+  width: 100px;
+}
+
+.workplay, .personalskills, .skills {
+  width: 550px;
+}
+
+.studies, .experience {
+  width: 550px;
 }
 
 .footer {
