@@ -1,26 +1,53 @@
+body {
+  background-color: #b7b7b7;
+}
+
 table, th, tr, td {
-background-color: #F9F9F9;
+background-color: #f1f1f1;
 font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.resume {
+  background-color: #319CEB;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  position:relative;
+  right: -50px;
+  top: -5px;
+  height: 85px;
+  width: 130px;
+  display: table-cell;
+  vertical-align: bottom;
+  font-weight: lighter;
+}
 
 th {
   text-align: left;
 }
 
-tr {
-  padding: 20px;
-}
 
 .name {
   color: #319CEB;
   text-align: left;
   font-size: 60px;
   font-weight: bold;
+  padding-left: 50px;
+}
+
+.subname {
+  padding-left: 50px;
+  font-size: 24px;
+  font-weight:lighter;
 }
 
 .data {
   font-weight: lighter;
+}
+
+i {
+  color: #319CEB;
 }
 
 .subtitle {
@@ -43,6 +70,7 @@ tr {
 .year {
   font-weight: bold;
   width: 100px;
+  padding-left: 50px;
 }
 
 .workplay, .personalskills, .skills {
@@ -53,6 +81,50 @@ tr {
   width: 550px;
 }
 
-.footer {
+.main-footer {
   background-color: #319CEB;
+  padding: 5px;
+  width: 1100px;
+  height: 15px;
+}
+
+#work {
+  background-color: #319CEB;
+  opacity: 0.8;
+  color: white;
+  font-family: arial;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  left:710px ;
+  bottom:230px ;
+  height: 110px;
+  width: 110px;
+  display: table-cell;
+  vertical-align: top;
+  -webkit-transform:rotate(-70deg);
+  opacity: 0,5;
+}
+
+#play {
+  background-color: #319CEB;
+  opacity: 0.8;
+  color: white;
+  font-family: arial;
+  font-size: 25px;
+  text-align: center;
+  font-weight: lighter;
+  position:relative;
+  left: 670px ;
+  bottom: 230px;
+  height: 110px;
+  width: 110px;
+  display: table-cell;
+  vertical-align: bottom;
+  -webkit-transform:rotate(-70deg);
+}
+
+.right {
+  text-align: right;
+  padding-right: 100px;
 }
